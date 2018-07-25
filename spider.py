@@ -4,7 +4,6 @@ from lxml import etree
 import requests
 import time
 import multiprocessing as mp
-
 from wordcloud import WordCloud
 
 
@@ -159,4 +158,3 @@ if __name__ == '__main__':
     p2.start()
     e = time.time()
     print("用时：", e-s)
-
